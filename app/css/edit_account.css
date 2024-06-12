@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F3F2F2;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+
+.side-nav{
+    width: 280px;
+    height: 100%;
+    background:  white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+}
+
+.logo{
+    display: block;
+    margin-bottom: 90px;
+    margin-left: 1rem;
+}
+.logo-img{
+    width: 150px;
+}
+
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+
+.nav-links li{
+    padding: 10px 0;
+}
+
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a span{
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.nav-links li:hover{
+    background-color: aqua;
+    width:250px;
+}
+
+.bottom-content {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 2rem;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.bottom-content li{
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-content li a{
+    color: black;
+    text-decoration: none;
+}
+
+.active{
+    background-color: aqua;
+    width: 250px;
+}
+
+.edit-account-section{
+    flex: 1;
+    padding: 20px;
+    margin-left: 20rem;
+    display: flexbox;
+}
+
+.edit-account-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #F8F8F8;
+    justify-content: center;
+    width: 60rem;
+    margin-left: -20px;
+}
+
+.edit-account-form label {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form.edit-account-form input {
+    height: 54px;
+    width: 50rem;
+    padding: 12px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1.5px solid #c7bebe;
+    background-color: #FAFAFC;
+    border-bottom-width: 2.5px;
+	font-weight: 700;
+    border-radius: 10px;
+	outline: none;
+}
+
+button{
+    height: 54px;
+    width: 50rem;
+    padding: 12px;
+    margin-bottom: 60px;
+    border: 2px solid #F2F3F6;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input img {
+    position: absolute;
+    right: 10rem;
+    top: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
